@@ -1,0 +1,56 @@
+<!--
+  The Footer
+-->
+
+<footer class="d-flex w-100 justify-content-center">
+    <div class="d-flex justify-content-between align-items-center text-muted">
+        <div class="footer-left">
+            <p class="mb-0">
+                © {{ 'now' | date: "%Y" }}
+                <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>. {% if site.data.locales[lang].copyright.brief %}
+                <span data-toggle="tooltip" data-placement="top" title="{{ site.data.locales[lang].copyright.verbose }}">{{ site.data.locales[lang].copyright.brief }}</span> {% endif %}
+            </p>
+            <p>Site from 2022.03.06</p>
+        </div>
+
+        <div class="footer-right">
+            <!--
+            <p class="mb-0">
+                
+				{% capture _platform %}
+				<a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+				{% endcapture %}
+
+				{% capture _theme %}
+				<a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
+				{% endcapture %}
+
+				{{ site.data.locales[lang].meta
+				| default: 'Powered by :PLATFORM with :THEME theme.'
+				| replace: ':PLATFORM', _platform | replace: ':THEME', _theme
+				}}
+            </p>
+            -->
+            <div style="align-self: center;">
+                <span style="font-size: 0.9em;">Give me a like from you</span>
+                <!-- LikeBtn.com BEGIN -->
+                <span class="likebtn-wrapper" data-identifier="item_1" data-counter_count="true"></span>
+                <script>
+                    (function(d, e, s) {
+                        if (d.getElementById("likebtn_wjs")) return;
+                        a = d.createElement(e);
+                        m = d.getElementsByTagName(e)[0];
+                        a.async = 1;
+                        a.id = "likebtn_wjs";
+                        a.src = s;
+                        m.parentNode.insertBefore(a, m)
+                    })(document, "script", "//w.likebtn.com/js/w/widget.js");
+                </script>
+                <!-- LikeBtn.com END -->
+            </div>
+
+        </div>
+
+    </div>
+    <!-- div.d-flex -->
+</footer>

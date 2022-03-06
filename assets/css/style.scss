@@ -1,0 +1,45 @@
+/*
+  If the number of TAB files has changed, the following variable is required.
+  And it must be defined before `@import`.
+*/
+
+//$tab-count: {{site.tabs | size | plus: 1}};   // plus 1 for home tab
+@import "{{ site.theme }}";
+
+/* append your custom style below */
+
+.speech-bubble {
+    background: var(--highlight-lineno-color);
+    color: #fff;
+    display: list-item;
+    font-size: 14px;
+    /* line-height: 4em; */
+    margin-bottom: 1em;
+    padding: 0 0em;
+    position: absolute;
+    text-align: center;
+    vertical-align: top;
+    min-width: 15em;
+    margin: 30px 10px;
+    margin: -2em 6em 1em 1em;
+    z-index: 2000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.speech-bubble:after {
+    border: 1em solid transparent;
+    border-top-color: var(--highlight-lineno-color);
+    content: '';
+    margin-left: -1em;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+}
+
+#search-results a,
+#search-hints .post-tag,
+a {
+    color: var(--pink);
+}
