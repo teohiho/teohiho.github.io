@@ -11,4 +11,5 @@ pin: false
  <br>
 オンライン上に反映：deploy, update lên, đẩy dữ liệu.
 -　仕様書（しようしょ）：　specification, tài liệu đặc tả kĩ thuật
+-　取得する（しゅとく）：　get
 
