@@ -10,6 +10,11 @@ pin: false
 -　反映 （はんえい） : Ánh xạ, thể hiện (trên bản vẽ)...
  <br>
 オンライン上に反映：deploy, update lên, đẩy dữ liệu.
+<br>
 -　仕様書（しようしょ）：　specification, tài liệu đặc tả kĩ thuật
+<br>
 -　取得する（しゅとく）：　get
+<br>
+-　引数（ひきすう）：　argument (đối số)
+
 

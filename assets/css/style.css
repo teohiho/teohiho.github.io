@@ -3878,6 +3878,9 @@ nav[data-toggle=toc] .nav .nav>li>a.active {
     margin: -2em 6em 1em 1em;
     z-index: 2000;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    line-height: 1.2rem;
+    word-spacing: 1px;
+    font-size: 95%;
 }
 
 .speech-bubble:after {
