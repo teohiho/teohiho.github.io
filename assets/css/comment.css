@@ -1,0 +1,9 @@
+.welcomments__container .welcomments__comment {
+    border-bottom: 1px dotted var(--search-icon-color);
+}
+
+.welcomments__container .welcomments__comment-reply-link {
+    background-color: snow;
+    padding: 0.1rem 1rem;
+    float: right;
+}
